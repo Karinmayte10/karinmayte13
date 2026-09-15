@@ -1,0 +1,188 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F4BBFC;
+    color: #333;
+}
+
+
+/* ENCABEZADO */
+
+header {
+    background-color: #FCC6BB ;
+    color: black;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+header img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+/* CONTENIDO PRINCIPAL */
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+
+/* SECCIONES */
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+section h2 {
+    text-align: center;
+    color: #881f5a;
+    margin-bottom: 25px;
+}
+
+
+/* HOJA DE VIDA */
+
+.apartado {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 4px solid #881f6a;
+    background-color: #f8f8f8;
+}
+
+.apartado h3 {
+    margin-top: 0;
+    color: #881f5e;
+}
+
+.apartado p {
+    line-height: 1.6;
+}
+
+.apartado ul {
+    line-height: 1.8;
+}
+
+
+/* FORMULARIO */
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+/* BOTÓN */
+
+button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #db6877;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #68164d;
+}
+
+
+/* PIE DE PÁGINA */
+
+footer {
+    background-color: #881f75;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    main {
+        width: 95%;
+        margin: 20px auto;
+    }
+
+    section {
+        padding: 18px;
+    }
+
+    section h2 {
+        font-size: 22px;
+    }
+
+    .apartado {
+        padding: 12px;
+    }
+
+    input,
+    select,
+    textarea {
+        font-size: 15px;
+    }
+}
+
+
+

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web Profesional</title>
+
+    <!-- Vinculamos el archivo CSS -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header>
+        <h1>Karin Mayte Paredes Ramos</h1>
+        <p>Mi página web profesional</p>
+        <img src="img/mayte.png" alt="">
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+
+        <!-- SECCIÓN HOJA DE VIDA -->
+        <section class="cv">
+
+            <h2>Hoja de Vida</h2>
+
+            <!-- Presentación -->
+            <div class="apartado">
+                <h3>Perfil Profesional</h3>
+                <p>
+                   Estudiante de Diseño y Desarrollo de Software, orientada a especializarme como desarrolladora de software, con experiencia en ventas,
+                   atención al cliente y gestión de un negocio propio.
+                   Me considero una persona responsable, creativa y comprometida con mis objetivos profesionales.
+                </p>
+            </div>
+
+            <!-- Formación -->
+            <div class="apartado">
+                <h3>Formación Académica</h3>
+                <p>
+                   DISEÑO Y DESARROLLO DE SOFTWARE
+                   CERTUS | Inicio: 24 de agosto de 2026 – En curso
+
+                </p>
+            </div>
+
+            <!-- Experiencia -->
+            <div class="apartado">
+                <h3>Experiencia y Proyectos</h3>
+                <p>
+                IBM SkillsBuild — Ingeniería de prompts: cómo mejorar las respuestas de la IA — En curso
+            	Python — Conocimientos básicos adquiridos mediante formación independiente
+                Power BI — Conocimientos básicos adquiridos mediante formación independiente
+
+                </p>
+            </div>
+
+            <!-- Habilidades -->
+            <div class="apartado">
+                <h3>Habilidades</h3>
+
+                <ul>
+                    <li>HTML y CSS</li>
+                    <li>Desarrollo web</li>
+                    <li>Trabajo en equipo</li>
+                    <li>Aprendizaje continuo</li>
+                </ul>
+            </div>
+
+            <!-- Contacto personal -->
+            <div class="apartado">
+                <h3>Contacto</h3>
+                <p>Correo: 72886488@certus.edu.pe</p>
+                <p>Teléfono: 932 234 727</p>
+                <p>Linkedin: mayte paredes ramos</p>
+            </div>
+
+        </section>
+
+
+        <!-- SECCIÓN FORMULARIO -->
+        <section class="contacto">
+
+            <h2>Formulario de Contacto</h2>
+
+            <form>
+
+                <label for="nombres">Nombres:</label>
+                <input 
+                    type="text" 
+                    id="nombres" 
+                    name="nombres"
+                    placeholder="Ingresa tus nombres"
+                >
+
+                <label for="apellidos">Apellidos:</label>
+                <input 
+                    type="text" 
+                    id="apellidos" 
+                    name="apellidos"
+                    placeholder="Ingresa tus apellidos"
+                >
+
+                <label for="correo">Correo electrónico:</label>
+                <input 
+                    type="email" 
+                    id="correo" 
+                    name="correo"
+                    placeholder="ejemplo@gmail.com"
+                >
+
+                <label for="telefono">Teléfono:</label>
+                <input 
+                    type="tel" 
+                    id="telefono" 
+                    name="telefono"
+                    placeholder="Ingresa tu teléfono"
+                >
+
+                <label for="motivo">Motivo de contacto:</label>
+
+                <select id="motivo" name="motivo">
+                    <option value="">Selecciona una opción</option>
+                    <option value="informacion">Solicitar información</option>
+                    <option value="proyecto">Consulta sobre un proyecto</option>
+                    <option value="trabajo">Oportunidad laboral</option>
+                    <option value="otro">Otro</option>
+                </select>
+
+                <label for="comentarios">Comentarios:</label>
+
+                <textarea 
+                    id="comentarios" 
+                    name="comentarios"
+                    placeholder="Escribe tu mensaje aquí..."
+                    rows="5"
+                ></textarea>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>© 2026 Karin Mayte Paredes Ramos</p>
+        <p>Mi página web profesional</p>
+    </footer>
+
+</body>
+</html>
+
